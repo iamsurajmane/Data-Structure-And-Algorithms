@@ -13,3 +13,4 @@ public class ClimbingStairs {
         System.out.println(countWays(n));
     }
 }
+// time cpmplexity = O(2^n)
