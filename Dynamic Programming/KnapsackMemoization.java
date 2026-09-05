@@ -1,5 +1,5 @@
 public class KnapsackMemoization {
-
+// O(n*W)
     public static int knapsackMemoization(int val[],int wt[],int W,int n,int dp[][]){
         if(n == 0 || W == 0){
             return 0;
