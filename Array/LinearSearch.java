@@ -9,7 +9,7 @@ public class LinearSearch {
     }
     public static void main(String[] args) {
         int arr[] = {22,34,54,32,21,24,56};
-        int k = 84;
+        int k = 56;
 
         System.out.println(search(arr, k));
     }
