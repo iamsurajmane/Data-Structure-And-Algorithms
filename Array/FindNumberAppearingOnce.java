@@ -1,5 +1,5 @@
 import java.util.HashMap;
-
+import java.util.Arrays;
 public class FindNumberAppearingOnce {
 
     // Method -- 1
@@ -21,12 +21,25 @@ public class FindNumberAppearingOnce {
     //     }
     //     return -1;
     // }
+
+    // Method -- 2
+    // Optimized solution
+    
+    public static int method2(int[] nums) {
+        int result = 0;
+        for (int num : nums) {
+            result ^= num;
+        }
+        return result;
+    }
+    
     public static void main(String[] args) {
-        int arr[] = { 2,3,4,5,4,5,3,2,1,1,9};
+        int arr[] = { 2,3,4,5,4,5,3,2,1,1,9,9,8};
 
         // METHOD -- 1
         // System.out.println(method1(arr));
 
-
+        // Method -- 2
+        System.out.println(method2(arr));
     }
 }
