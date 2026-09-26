@@ -24,6 +24,8 @@ public class FindNumberAppearingOnce {
 
     // Method -- 2
     // Optimized solution
+    // time = O(n)
+    // space = O(1)
     
     public static int method2(int[] nums) {
         int result = 0;
