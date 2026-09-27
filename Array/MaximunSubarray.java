@@ -22,11 +22,13 @@ public class MaximunSubarray {
             currSum = Math.max(nums[i] , currSum + nums[i]);
             maxSum = Math.max(currSum , maxSum);
         }
-        return maxSum
+        return maxSum;
     }
     public static void main(String[] args) {
         int nums[] = {-2,1,-3,4,-1,2,1,-5,4};
 
         // System.out.println(maxSum1(nums));
+
+        System.out.println(maxSum2(nums));
     }
 }
